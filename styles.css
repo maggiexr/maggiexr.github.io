@@ -1,0 +1,71 @@
+body {
+  background-image: url('./assets/gradient.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #222;
+  font-family: 'Raleway', serif;
+  height: calc(100vh - 24px);
+  margin: 0;
+  overflow: hidden;
+  padding: 24px 8px 0;
+  width: calc(100vw - 16px);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.welcome * {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.links {
+  align-items: center;
+  border-radius: 5px;
+  gap: 16px;
+  display: flex;
+  margin: 24px auto;
+  text-align: center;
+  width: fit-content;
+}
+
+.links a {
+  height: 32px;
+}
+
+.links img {
+  height: 32px;
+  width: 32px;
+}
+
+.profile {
+  border: solid rgba(255,255,255,0.8) 8px;
+  border-radius: 50%;
+  height: 200px;
+  margin: 0 auto 32px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.profile img {
+  display: block;
+  height: 100%;
+}
+
+.content p {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    margin: 0 auto;
+    width: 600px;
+  }
+}
