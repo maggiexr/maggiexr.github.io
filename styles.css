@@ -36,6 +36,7 @@ body {
 
 .links a {
   height: 32px;
+  margin-bottom: 64px;
 }
 
 .links img {
