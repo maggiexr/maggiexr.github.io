@@ -11,6 +11,18 @@ body {
   width: calc(100vw - 16px);
 }
 
+a {
+  color: inherit;
+}
+
+.theme-dark {
+  color: white;
+}
+
+.theme-light {
+  color: black;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -18,10 +30,19 @@ body {
   justify-content: space-between;
 }
 
+.theme-dark select {
+  background-color: black;
+  color: white;
+}
+
 .welcome * {
   background-color: rgba(255,255,255,0.8);
   border-radius: 5px;
   text-align: center;
+}
+
+.theme-dark .welcome * {
+  background-color: rgba(0,0,0,0.8);
 }
 
 .links {
@@ -53,6 +74,9 @@ body {
   width: 200px;
 }
 
+.theme-dark .profile {
+  border-color: rgba(0,0,0,0.8);
+}
 .profile img {
   display: block;
   height: 100%;
@@ -62,6 +86,18 @@ body {
   background-color: rgba(255,255,255,0.8);
   border-radius: 5px;
   text-align: center;
+}
+
+.theme-dark .content p {
+  background-color: rgba(0,0,0,0.8);
+}
+
+svg path {
+  fill: white;
+}
+
+.theme-dark svg path {
+  fill: black;
 }
 
 @media screen and (min-width: 600px) {
