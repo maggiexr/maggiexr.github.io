@@ -31,7 +31,7 @@ a {
 }
 
 .theme-dark select {
-  background-color: black;
+  background-color: rgba(0,0,0,0.8);
   color: white;
 }
 
@@ -97,7 +97,7 @@ svg path {
 }
 
 .theme-dark svg path {
-  fill: black;
+  fill: rgba(0,0,0,0.8);
 }
 
 @media screen and (min-width: 600px) {
